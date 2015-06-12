@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AaluCross</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_name_picker">NamePickerActivity</string>
+    <string name="title_activity_final_game">FinalGameActivity</string>
+</resources>

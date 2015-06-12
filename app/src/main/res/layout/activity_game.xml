@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.game.aalucross.activity.aalucross.GameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/layout_rounded_corner">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Choose Game Type"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#003400"
+                android:textSize="35sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/player1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:padding="10dp"
+                android:text="One Player Game"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#003400"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/player1"
+                    android:layout_alignEnd="@+id/textView"
+                    android:layout_alignRight="@+id/textView"
+                    android:layout_below="@+id/textView" />
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/player2"
+                    android:layout_alignLeft="@+id/radioButton"
+                    android:layout_alignParentBottom="@+id/radioButton"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignStart="@+id/radioButton"
+                    android:layout_alignTop="@+id/player2" />
+            <TextView
+                android:id="@+id/player2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/player1"
+                android:padding="10dp"
+                android:text="Two Player Game"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#003400"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg"
+                android:text="Next"
+                android:textColor="#003400"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

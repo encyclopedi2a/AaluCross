@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.game.aalucross.activity.aalucross.GameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/layout_rounded_corner">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firstPlayerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/player1"
+                android:padding="10dp"
+                android:text="Enter First Player Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#003400"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/edittext_rounded_corner"
+                />
+            <TextView
+                android:id="@+id/secondPlayerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/player1"
+                android:padding="10dp"
+                android:text="Enter Second Player Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#003400"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/edittext_rounded_corner"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="Start Game"
+                android:textColor="#003400"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:background="@drawable/bg"
+                android:id="@+id/button"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

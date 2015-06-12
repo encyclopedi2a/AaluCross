@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit From Game?"
+        android:textSize="35sp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/innerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/positive"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:textSize="20sp"
+            android:text="Yes"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textColor="#003400"
+            />
+
+
+        <Button
+            android:id="@+id/negative"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:textSize="20sp"
+            android:text="No"
+            android:layout_weight="1"
+            android:textColor="#003400"
+            />
+    </LinearLayout>
+</LinearLayout>
